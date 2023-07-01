@@ -2,16 +2,20 @@ import Link from "next/link";
 import React from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
+import { GithubIcon, LinkedIn } from "./Icons";
+import { motion } from "framer-motion";
 
 const CustomLink = ({ href, title, className = "" }) => {
-  //const router = useRouter();
+  const router = useRouter();
 
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
       <span
-        className="h-[1px] inline-block w-0 bg-dark absolute left-0
-      -bottom-0.5 group-hover:w-full transition-[width] ease duration-300"
+        className={`h-[1px] inline-block absolute bg-black left-0
+      -bottom-0.5 group-hover:w-full transition-[width] ease duration-300
+      ${router.asPath === href ? "w-full" : "w-0"} 
+      `}
       ></span>
     </Link>
   );
@@ -27,18 +31,26 @@ function NavBar() {
         <CustomLink href="/articles" title="ARTICLES" className="mr-4" />
       </nav>
 
-      <nav>
-        <CustomLink href="/" title="T" />
-        <CustomLink href="/" title="T" />
-        <CustomLink href="/" title="T" />
-        <CustomLink href="/" title="T" />
-        <CustomLink href="/" title="T" />
-        <CustomLink href="/" title="T" />
+      <nav className="flex items-center justify-center flex-wrap">
+        <motion.a
+          className="mr-3"
+          href="/"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.8 }}
+        >
+          <LinkedIn />
+        </motion.a>
+        <motion.a
+          className="ml-3"
+          href="/"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.8 }}
+        >
+          <GithubIcon />
+        </motion.a>
       </nav>
-
-      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
-        <Logo />
-      </div>
     </header>
   );
 }
