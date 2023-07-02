@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import Layout from "@/components/Layout";
-import profilesPic from "../../public/images/profile/developer.png";
+import profilesPic from "../../public/images/profile/myart.jpg";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
+import { ArrowIcon } from "@/components/Icons";
 
 export default function Home() {
   return (
@@ -17,11 +18,11 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
-            <div className="w-1/2">
+            <div className="w-1/2 ">
               <Image
                 src={profilesPic}
                 alt="DA"
-                className="w-full h-auto"
+                className="w-1/2 h-auto ml-12 rounded-3xl"
               ></Image>
             </div>
             <div className="w-1/2">
@@ -32,13 +33,28 @@ export default function Home() {
               <p className="my-4 text-base font-medium">
                 As a youthful junior student and a passion data analyst, I'm
                 interested in working with data, willing to equip new knowledge,
-                upgrade myself to align perfectly with the demands of the job. I
-                am currently available and ready to contribute as a full-time
-                intern, offering my dedicated commitment to actively engage and
-                play a part to the organization's goals.
+                upgrade myself to align perfectly with the demands of the job.
               </p>
-              <Link href="/">My Resume</Link>
-              <Link href="baotran310702@gmail.com">Email Contact</Link>
+
+              <div className="flex items-center self-start mt-2">
+                <Link
+                  href="/BaoTranCV.pdf"
+                  className={
+                    "flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+                  }
+                  target={"_blank"}
+                  download={true}
+                >
+                  My Resume <ArrowIcon className="w-6 ml-2" />
+                </Link>
+                <Link
+                  href="mailto:baotran310702@gmail.com"
+                  target={`_blank`}
+                  className="ml-4 text-lg font-medium capitalize text-dark underline"
+                >
+                  Email Contact
+                </Link>
+              </div>
             </div>
           </div>
         </Layout>
