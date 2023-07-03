@@ -33,7 +33,7 @@ const Details = ({
             @{nameLink}
           </a>
         </h3>
-        <span>
+        <span className="text-sm">
           {time} | {major}
         </span>
         <p>{description}</p>
@@ -57,7 +57,7 @@ function Roadmap() {
           style={{ scaleY: scrollYProgress }}
           className="absolute left-9 top-1 w-[4px] h-full bg-dark origin-top"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-20 ">
+        <ul className="w-full flex flex-col items-start justify-betweem ml-20 ">
           <Details
             title="University Of Information and Technology - VNU"
             time="2020-2024"
@@ -77,15 +77,15 @@ function Roadmap() {
             Prepare Data for Exploration,            
             Foundations: Data, Data, Everywhere,            
             Google Data Analytics Capstone: Complete a Case Study."
-            major="Data Analyst"
+            major="Data Analyst Courses"
             link="https://www.coursera.org/account/accomplishments/professional-cert/H5WPSC7AX3NQ"
             nameLink="Google"
           />
           <Details
-            title="Advanced SQL Certificate"
+            title="Advanced SQL Courses Provided by Kaggle"
             time="07/2023"
-            description="Relevant courses included Data Structures and Algorithm, Database Management System (DBMS), Distributed Database, Business Data Analyst, OLAP, Data Mining..."
-            major="Bachelor of Information System"
+            description="Learn more about UNION and JOINs, analytic function, nested and repeated data and write efficient queries."
+            major="Optimize And Make Query Less Complicated"
             link="https://www.kaggle.com/learn/certification/tranbao1414/advanced-sql"
             nameLink="Kaggle"
           />

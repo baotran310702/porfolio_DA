@@ -26,15 +26,14 @@ function NavBar() {
     <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
       <nav>
         <CustomLink href="/" title="HOME" className="mr-4" />
-        <CustomLink href="/about" title="ABOUT" className="mr-4" />
+        <CustomLink href="/about" title="ABOUT ME" className="mr-4" />
         <CustomLink href="/projects" title="PROJECTS" className="mr-4" />
-        <CustomLink href="/articles" title="ARTICLES" className="mr-4" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
         <motion.a
           className="mr-3"
-          href="/"
+          href="https://github.com/baotran310702"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.8 }}
@@ -43,7 +42,7 @@ function NavBar() {
         </motion.a>
         <motion.a
           className="ml-3"
-          href="/"
+          href="https://www.linkedin.com/in/baotran310702/"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.8 }}

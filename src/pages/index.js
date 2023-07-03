@@ -25,15 +25,19 @@ export default function Home() {
                 className="w-1/2 h-auto ml-20 rounded-3xl"
               ></Image>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 mr-10">
+              <AnimatedText
+                text="Bao's Porfolio"
+                className="!text-4xl text-left font-mono"
+              ></AnimatedText>
               <AnimatedText
                 text="Turning data into insights"
-                className="!text-6xl text-left"
+                className="!text-7xl text-left"
               ></AnimatedText>
-              <p className="my-4 text-base font-medium">
+              <p className="my-4 text-lg font-medium ">
                 As a youthful junior student and a passion data analyst, I'm
                 interested in working with data, willing to equip new knowledge,
-                upgrade myself to align perfectly with the demands of the job.
+                upgrade myself to align perfectly with the demands of business.
               </p>
 
               <div className="flex items-center self-start mt-2">
