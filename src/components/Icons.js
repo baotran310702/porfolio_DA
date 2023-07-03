@@ -54,7 +54,7 @@ export const ArrowIcon = (props) => (
 export const CheckedIcon = (props) => (
   <svg
     className="w-6 h-6 text-gray-800 dark:text-white mr-1"
-    ariaHidden="true"
+    aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 21 21"
   >
