@@ -17,7 +17,11 @@ function Footer() {
           Welcome to my Portfolio
           <span className="text-primary text-2xl px-1">&#9825;</span>
         </Link>
-        <Link href="/" className="">
+        <Link
+          href="https://tailwindcss.com/docs/guides/nextjs"
+          target="_blank"
+          className=""
+        >
           Made by NextJS & TailwindCSS
         </Link>
       </Layout>

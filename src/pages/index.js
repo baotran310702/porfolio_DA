@@ -22,7 +22,7 @@ export default function Home() {
               <Image
                 src={profilesPic}
                 alt="DA"
-                className="w-1/2 h-auto ml-12 rounded-3xl"
+                className="w-1/2 h-auto ml-20 rounded-3xl"
               ></Image>
             </div>
             <div className="w-1/2">

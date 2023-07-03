@@ -37,7 +37,7 @@ function About() {
   return (
     <>
       <Head>
-        <title>Tran Quoc Bao | About Page</title>
+        <title>Tran Quoc Bao | About me</title>
         <meta name="description" content="any description" />
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
