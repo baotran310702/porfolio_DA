@@ -72,7 +72,7 @@ const Project = ({ type, title, summary, img, link = "/", github = "/" }) => {
       className="relative w-full flex flex-col items-center justify-center 
     rounded-2xl border border-solid border-dark bg-light p-6"
     >
-      <div className="absolute top-2 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark"></div>
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark"></div>
       <Link
         href={link}
         target="_blank"
@@ -145,7 +145,7 @@ function Projects() {
             </div>
             <div className="col-span-6">
               <Project
-                title="Dashboard Revenue Hospitality by MS Power BI."
+                title="Revenue Hospitality."
                 img={DashboardPI}
                 type="Power BI"
                 link="https://github.com/baotran310702/Analyze_Revenue_Hospitality"

@@ -5,6 +5,7 @@ import profilesPic from "../../public/images/profile/myart.jpg";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { ArrowIcon } from "@/components/Icons";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -26,10 +27,9 @@ export default function Home() {
               ></Image>
             </div>
             <div className="w-1/2 mr-10">
-              <AnimatedText
-                text="Bao's Porfolio"
-                className="!text-4xl text-left font-mono"
-              ></AnimatedText>
+              <motion.h1 className="animate-bounced !text-4xl text-left font-mono">
+                Bao's Porfolio
+              </motion.h1>
               <AnimatedText
                 text="Turning data into insights"
                 className="!text-7xl text-left"
