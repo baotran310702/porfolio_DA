@@ -23,11 +23,11 @@ const CustomLink = ({ href, title, className = "" }) => {
 
 function NavBar() {
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+    <header className=" w-full px-32 py-6 font-medium flex items-center justify-between">
       <nav>
-        <CustomLink href="/" title="HOME" className="mr-4" />
-        <CustomLink href="/about" title="ABOUT ME" className="mr-4" />
-        <CustomLink href="/projects" title="PROJECTS" className="mr-4" />
+        <CustomLink href="/" title="HOME" className="mr-8" />
+        <CustomLink href="/about" title="ABOUT ME" className="mr-8" />
+        <CustomLink href="/projects" title="PROJECTS" className="mr-8" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">

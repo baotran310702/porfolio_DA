@@ -10,7 +10,7 @@ function Footer() {
     >
       <Layout className="py-8 flex items-center justify-between">
         <span>
-          {new Date().getDate()}/{new Date().getMonth()}/
+          {new Date().getDate()} / {new Date().getMonth() + 1} /{" "}
           {new Date().getFullYear()}
         </span>
         <Link href="/">

@@ -51,7 +51,7 @@ function Roadmap() {
 
   return (
     <div className="my-32">
-      <h2 className="font-bold text-5xl mb-28 w-full text-center">EDUCATION</h2>
+      <h2 className="font-bold text-6xl mb-28 w-full text-center">EDUCATION</h2>
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}

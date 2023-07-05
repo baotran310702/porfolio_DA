@@ -6,6 +6,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { ArrowIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
+import astronaut from "../../public/images/profile/astronaut.png";
 
 export default function Home() {
   return (
@@ -16,7 +17,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex items-center text-dark w-full min-h-screen">
+      <main className="relative flex items-center text-dark w-full min-h-screen ">
+        <Image
+          src={astronaut}
+          alt="Astronaut"
+          className="absolute top-0 z-10 w-72 h-72 animate-astronaut"
+        />
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2 ">
@@ -27,7 +33,7 @@ export default function Home() {
               ></Image>
             </div>
             <div className="w-1/2 mr-10">
-              <motion.h1 className="animate-bounced !text-4xl text-left font-mono">
+              <motion.h1 className="animate-bounced !text-5xl text-left font-mono">
                 Bao's Porfolio
               </motion.h1>
               <AnimatedText

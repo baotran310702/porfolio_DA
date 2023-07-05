@@ -17,7 +17,7 @@ const Skill = ({ text, description }) => {
 function Skills() {
   return (
     <>
-      <h2 className="font-bold text-5xl mt-32 mb-28 w-full text-center">
+      <h2 className="font-bold text-6xl mt-32 mb-28 w-full text-center">
         SKILLS
       </h2>
       <div className="w-full flex items-center justify-center">
