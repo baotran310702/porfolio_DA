@@ -24,8 +24,8 @@ const AnimatedNumbers = ({ value }) => {
 
   useEffect(() => {
     springValue.on("change", (lastest) => {
-      if (ref.current && lastest.toFixed(1) <= value) {
-        ref.current.textContent = lastest.toFixed(1);
+      if (ref.current && lastest.toFixed(0) <= value) {
+        ref.current.textContent = lastest.toFixed(0);
       }
     });
   }, [springValue, value]);
@@ -83,7 +83,7 @@ function About() {
                 className="w-full h-auto rounded-2xl"
               />
             </div>
-            <div className="col-span-2 flex flex-col items-end justify-between">
+            <div className="col-span-2 flex flex-col items-end justify-around">
               <div className="flex flex-col items-center justify-center">
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={3} />
@@ -98,14 +98,6 @@ function About() {
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 ">
                   Projects Completed
-                </h2>
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={7.5} isInt={false} />
-                </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75 ">
-                  GPA in total 10
                 </h2>
               </div>
             </div>
