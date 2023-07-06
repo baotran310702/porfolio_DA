@@ -18,7 +18,7 @@ function Skills() {
   return (
     <>
       <h2 className="font-bold text-6xl mt-32 mb-28 w-full text-center">
-        SKILLS
+        TECHNICAL SKILLS
       </h2>
       <div className="w-full flex items-center justify-center">
         <div className="col-span-2 items-center justify-start mr-3">
