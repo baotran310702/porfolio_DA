@@ -23,7 +23,7 @@ function Skills() {
       <div className="w-full flex items-center justify-center">
         <div className="col-span-2 items-center justify-start mr-3">
           <Skill text="Python - R" description="Programming Language" />
-          <Skill text="MS Excel" description="Macros, VBA VLookup, Pivot..." />
+          <Skill text="MS Excel" description="VBA, Pivot..." />
         </div>
         <div className="col-span-2 items-center justify-start">
           <Skill text="SQL" description="SQL Server, MySQL.." />
