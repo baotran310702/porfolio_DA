@@ -61,33 +61,20 @@ function Roadmap() {
           <Details
             title="University Of Information and Technology - VNU"
             time="2020-2024"
-            description="Relevant courses included Data Structures and Algorithm, Database Management System (DBMS), Distributed Database, Business Data Analyst, OLAP, Data Mining..."
+            description="Relevant courses included Data Structures and Algorithm, Web Application Designing, OOP (Object Oriented Programming)..."
             major="Bachelor of Information System"
             link="https://www.uit.edu.vn/"
             nameLink="UIT"
           />
           <Details
-            title={`Google Data Analyst Professional Certificate - Coursera`}
-            time="19/06/2023"
-            description="Including 8 courses, Data Analysis with R Programming,
-            Process Data from Dirty to Clean,
-            Share Data Through the Art of Visualization,            
-            Ask Questions to Make Data-Driven Decisions,            
-            Analyze Data to Answer Questions,            
-            Prepare Data for Exploration,            
-            Foundations: Data, Data, Everywhere,            
-            Google Data Analytics Capstone: Complete a Case Study."
-            major="Data Analyst Courses"
-            link="https://www.coursera.org/account/accomplishments/professional-cert/H5WPSC7AX3NQ"
-            nameLink="Google"
-          />
-          <Details
-            title="Advanced SQL Courses Provided by Kaggle"
-            time="07/2023"
-            description="Learn more about UNION and JOINs, analytic function, nested and repeated data and write efficient queries."
-            major="Optimize And Make Query Less Complicated"
-            link="https://www.kaggle.com/learn/certification/tranbao1414/advanced-sql"
-            nameLink="Kaggle"
+            title={`Joined UIT Web - Game Hackathon`}
+            time="2022"
+            major="UIT Web - Game Hackathon"
+            description="Make a Web3 that using solidity framework and asp.net web api in backend and 
+            reactJS in frontend to make a auction NFT web named GreenSavers. People can you ETH to join
+             auction, all the money will be using for charity."
+            link="https://www.facebook.com/GameUITHackathon/photos/a.1802405493469811/1802452036798490/"
+            nameLink="Fanpage"
           />
         </ul>
       </div>

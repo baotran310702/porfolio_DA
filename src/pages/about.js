@@ -50,11 +50,12 @@ function About() {
               </h2>
               <p className="font-medium">
                 Hi, I am a junior student at the Vietnam National University of
-                Information and Technology. I have a strong passion for
-                understanding how data drives insights and decision-making
-                processes. With a keen interest in the field of data analysis, I
-                am eager to expand my knowledge and skills in this domain. I
-                hope to be a part of your team.
+                Information and Technology. As a frontend developer, I'm
+                passionate about turning creative ideas into captivating digital
+                experiences. With expertise in HTML, CSS, JavaScript, React.js,
+                Tailwind CSS, Redux Toolkit, and deployment, I thrive on
+                crafting user-friendly web interfaces. Let's collaborate and
+                bring your vision to life!
               </p>
               <p className="my-4 text-base font-medium">
                 I am currently <b>available</b> and <b>ready</b> to contribute{" "}
@@ -86,7 +87,7 @@ function About() {
             <div className="col-span-2 flex flex-col items-end justify-around">
               <div className="flex flex-col items-center justify-center">
                 <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={3} />
+                  <AnimatedNumbers value={4} />
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 ">
                   Third year student
@@ -94,7 +95,7 @@ function About() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 ">
                   Projects Completed

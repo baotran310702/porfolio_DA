@@ -37,13 +37,14 @@ export default function Home() {
                 Bao's Porfolio
               </motion.h1>
               <AnimatedText
-                text="Turning data into insights"
+                text="Frontend Developer"
                 className="!text-7xl text-left"
               ></AnimatedText>
               <p className="my-4 text-lg font-medium ">
-                As a youthful junior student and a passion data analyst, I'm
-                interested in working with data, willing to equip new knowledge,
-                upgrade myself to align perfectly with the demands of business.
+                As a skilled frontend developer, I am dedicated to turning ideas
+                into innovative web applications. Explore my latest projects and
+                articles, showcasing my expertise in React.js and web
+                development.
               </p>
 
               <div className="flex items-center self-start mt-2">

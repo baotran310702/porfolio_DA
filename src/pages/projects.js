@@ -5,11 +5,11 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import KmeanPic from "../../public/images/profile/KMeans.png";
 import ExcelPic from "../../public/images/profile/ExcelPJ.png";
 import DashboardPI from "../../public/images/profile/DashboardPI.png";
-import ArimaPic from "../../public/images/profile/Python.png";
-import Datawarehouse from "../../public/images/profile/Data ware house.png";
+import NFT_Charity from "../../public/images/profile/thumbnail_greensavers.png";
+import Tiktok_App from "../../public/images/profile/thumbnail_tiktok.png";
+import Shoes_App from "../../public/images/profile/thumbnail_shoes.png";
 
 import { motion } from "framer-motion";
 
@@ -126,48 +126,30 @@ function Projects() {
           <div className="grid grid-cols-12 gap-24 mt-14">
             <div className="col-span-12">
               <FeaturedProject
-                title="Analyze The Behavior of Tenants in New York in 2019 using KMeans - a clustering algorithm."
-                img={KmeanPic}
-                summary="Data preprocessing with Python (drop empty, delete duplicate...). Then, applying KMeans algorithm for dataset and running process. Finally, visualizing theri correlation with box-plot chart and show the clusters in map using python's library."
+                title="NFT Charity (Teamwork)"
+                img={NFT_Charity}
+                summary="I was joined in working at both frontend and backend position. At role frontend, i joined in user interface, login using metamask features, fetch nft from backend solidity and fetch api from backend. At backend, i joined in design models and used it to save transactions."
                 link="https://github.com/baotran310702/Analyze_Airbnb_KMeans"
                 github="https://github.com/baotran310702/Analyze_Airbnb_KMeans"
-                type="Python"
+                type="Frontend: ReactJS, Backend: ASP.NET Web API"
               />
             </div>
             <div className="col-span-6">
               <Project
-                title="Shopping Habit of Customer in Istanbul."
-                img={ExcelPic}
-                type="MS Excel"
+                title="Clone Tiktok Web"
+                img={Tiktok_App}
+                type="ReactJS - Module CSS (SASS & SCSS)"
                 link="https://github.com/baotran310702/Customer_shopping_analysis"
                 github="https://github.com/baotran310702/Customer_shopping_analysis"
               />
             </div>
             <div className="col-span-6">
               <Project
-                title="Revenue Hospitality."
-                img={DashboardPI}
+                title="Web Shoes Store"
+                img={Shoes_App}
                 type="Power BI"
                 link="https://github.com/baotran310702/Analyze_Revenue_Hospitality"
                 github="https://github.com/baotran310702/Analyze_Revenue_Hospitality"
-              />
-            </div>
-            <div className="col-span-6">
-              <Project
-                title="Hybrid ARIMA & Random Walk Model in Predicting Cryptocurrency."
-                img={ArimaPic}
-                type="Python"
-                link="https://github.com/baotran310702/Crypto_Price_Forecasting"
-                github="https://github.com/baotran310702/Crypto_Price_Forecasting"
-              />
-            </div>
-            <div className="col-span-6">
-              <Project
-                title="Building Data Warehouse for Airbnb in New York in 2019 and Report."
-                img={Datawarehouse}
-                type="Visual Studio & Sql Server"
-                github="https://github.com/baotran310702/SSAS_AB_NYC_2019/tree/main"
-                link="https://github.com/baotran310702/SSAS_AB_NYC_2019/tree/main"
               />
             </div>
           </div>
