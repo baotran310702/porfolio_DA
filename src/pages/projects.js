@@ -9,7 +9,7 @@ import ExcelPic from "../../public/images/profile/ExcelPJ.png";
 import DashboardPI from "../../public/images/profile/DashboardPI.png";
 import NFT_Charity from "../../public/images/profile/thumbnail_greensavers.png";
 import Tiktok_App from "../../public/images/profile/thumbnail_tiktok.png";
-import Shoes_App from "../../public/images/profile/thumbnail_shoes.png";
+import Shoes_App from "../../public/images/profile/thumbnail-shoes.png";
 
 import { motion } from "framer-motion";
 
@@ -129,8 +129,8 @@ function Projects() {
                 title="NFT Charity (Teamwork)"
                 img={NFT_Charity}
                 summary="I was joined in working at both frontend and backend position. At role frontend, i joined in user interface, login using metamask features, fetch nft from backend solidity and fetch api from backend. At backend, i joined in design models and used it to save transactions."
-                link="https://github.com/baotran310702/Analyze_Airbnb_KMeans"
-                github="https://github.com/baotran310702/Analyze_Airbnb_KMeans"
+                link="https://github.com/hadanhtuan/NFT_Charity"
+                github="https://github.com/hadanhtuan/NFT_Charity"
                 type="Frontend: ReactJS, Backend: ASP.NET Web API"
               />
             </div>
@@ -138,18 +138,18 @@ function Projects() {
               <Project
                 title="Clone Tiktok Web"
                 img={Tiktok_App}
-                type="ReactJS - Module CSS (SASS & SCSS)"
-                link="https://github.com/baotran310702/Customer_shopping_analysis"
-                github="https://github.com/baotran310702/Customer_shopping_analysis"
+                type="ReactJS - Module CSS (SASS & SCSS) - My first prject when learn ReactJS"
+                link="https://tiktok-app-baotran.netlify.app/"
+                github="https://github.com/baotran310702/tiktok-app"
               />
             </div>
             <div className="col-span-6">
               <Project
                 title="Web Shoes Store"
                 img={Shoes_App}
-                type="Power BI"
-                link="https://github.com/baotran310702/Analyze_Revenue_Hospitality"
-                github="https://github.com/baotran310702/Analyze_Revenue_Hospitality"
+                type="ReactJS + Vite, TailwindCSS, ReduxToolkit (CSS & Responsive)"
+                link="https://nike-shoes-store-baotran.vercel.app/"
+                github="https://github.com/baotran310702/nike_shoes_shop_user_fe"
               />
             </div>
           </div>

@@ -21,7 +21,7 @@ function Skills() {
         TECHNICAL SKILLS
       </h2>
       <div className="w-full flex justify-center items-center">
-        <div className="w-2/3 grid grid-cols-2 items-center justify-items-center gap-4">
+        <div className="w-4/5 grid grid-cols-2 items-center justify-items-center gap-4">
           <div className="col-span-1">
             <Skill
               text="Figma - Github"
@@ -36,10 +36,16 @@ function Skills() {
               description="Utility CSS Framework"
             />
           </div>
-          <div className="col-span-2">
+          <div className="col-span-1">
             <Skill
               text="Redux - Redux Toolkit"
               description="State Management"
+            />
+          </div>
+          <div className="col-span-1">
+            <Skill
+              text="ASP.NET Web API - SQL Server"
+              description="Backend position"
             />
           </div>
         </div>

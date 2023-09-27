@@ -90,7 +90,7 @@ function About() {
                   <AnimatedNumbers value={4} />
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 ">
-                  Third year student
+                  Fourth year student
                 </h2>
               </div>
               <div className="flex flex-col items-center justify-center">
