@@ -37,7 +37,7 @@ export default function Home() {
                 Bao's Porfolio
               </motion.h1>
               <AnimatedText
-                text="Frontend Developer"
+                text="Web Developer"
                 className="!text-7xl text-left"
               ></AnimatedText>
               <p className="my-4 text-lg font-medium ">
