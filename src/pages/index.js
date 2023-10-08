@@ -41,8 +41,8 @@ export default function Home() {
                 className="!text-7xl text-left"
               ></AnimatedText>
               <p className="my-4 text-lg font-medium ">
-                As a skilled frontend developer, I am dedicated to turning ideas
-                into innovative web applications. Explore my latest projects and
+                As a skilled web developer, I am dedicated to turning ideas into
+                innovative web applications. Explore my latest projects and
                 articles, showcasing my expertise in React.js and web
                 development.
               </p>
