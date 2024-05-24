@@ -37,14 +37,11 @@ export default function Home() {
                 Bao's Porfolio
               </motion.h1>
               <AnimatedText
-                text="Web Developer"
+                text="Flutter Developer"
                 className="!text-7xl text-left"
               ></AnimatedText>
               <p className="my-4 text-lg font-medium ">
-                As a skilled web developer, I am dedicated to turning ideas into
-                innovative web applications. Explore my latest projects and
-                articles, showcasing my expertise in React.js and web
-                development.
+              A passionate Flutter developer is an enthusiast in the realm of cross-platform mobile app development, driven by a love for creating seamless and high-performing applications. They possess a deep understanding of the Flutter framework and Dart programming language, enabling them to build aesthetically pleasing and functional mobile apps for both iOS and Android platforms from a single codebase.
               </p>
 
               <div className="flex items-center self-start mt-2">

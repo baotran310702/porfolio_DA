@@ -25,12 +25,12 @@ function Skills() {
           <div className="col-span-1">
             <Skill
               text="Figma - Github"
-              description="Tools for frontend developer"
+              description="Tools"
             />
-            <Skill text="HTML - CSS - JS" description="Base knowledge" />
+            <Skill text="HTML - CSS - JS" description="Web Knowledge" />
           </div>
           <div className="col-span-1">
-            <Skill text="ReactJS - NextJS" description="Web Framework" />
+            <Skill text="ReactJS - NextJS - Flutter" description="Development Framework" />
             <Skill
               text="TailwindCSS - SCSS/SASS"
               description="Utility CSS Framework"
@@ -38,8 +38,14 @@ function Skills() {
           </div>
           <div className="col-span-1">
             <Skill
-              text="Redux - Redux Toolkit"
+              text="Bloc, Redux, GetX, Provider"
               description="State Management"
+            />
+          </div>
+          <div className="col-span-1">
+            <Skill
+              text="Dart, Java, C#, Python, Javascript."
+              description="Programming Language"
             />
           </div>
           <div className="col-span-1">
