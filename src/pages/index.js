@@ -62,14 +62,14 @@ export default function Home() {
                 <br/>
                 • Experienced in <b>Unit Testing</b> and <b>Integration Testing</b>
                 <br/>
-                • Experienced in <b>CI/CD Pipeline</b>
+                • Experienced in <b>CI/CD Pipeline</b> with Github Actions
                 <br/>
                 • Knowledge of <b>WebSockets, Socket.IO</b>
               </p>
 
               <div className="flex items-center self-start mt-2">
                 <Link
-                  href="/BaoTran_CV.pdf"
+                  href="/FlutterDeveloper_TranQuocBao_CV.pdf"
                   className={
                     "flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
                   }
