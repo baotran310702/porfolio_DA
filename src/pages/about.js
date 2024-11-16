@@ -23,9 +23,11 @@ const AnimatedNumbers = ({ value }) => {
   }, [isInView, value, motionValue]);
 
   useEffect(() => {
-    springValue.on("change", (lastest) => {
-      if (ref.current && lastest.toFixed(0) <= value) {
-        ref.current.textContent = lastest.toFixed(0);
+    springValue.on("change", (latest) => {
+      if (ref.current && latest <= value) {
+        ref.current.textContent = typeof value === 'number' && Number.isInteger(value) 
+          ? latest.toFixed(0)
+          : latest.toFixed(1);
       }
     });
   }, [springValue, value]);
@@ -49,21 +51,21 @@ function About() {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I am a junior student at the Vietnam National University of
-                Information and Technology. As a frontend developer, I'm
-                passionate about turning creative ideas into captivating digital
-                experiences. With expertise in HTML, CSS, JavaScript, React.js,
-                Tailwind CSS, Redux Toolkit, and deployment, I thrive on
-                crafting user-friendly web interfaces. Let's collaborate and
-                bring your vision to life!
+                Hi, I am <b>Bao</b>.<br />
+                I am come from <b>UIT-VNUHCM</b>.<br />
+                I will be graduated in <b>28/11/2024</b>.<br />
+                I am flutter developers with <b>over 20 months of experience</b> .<br />
+                I have an my own project. Pushed to production on Google Play.
+                I will deploy it to App Store soon.<br />
               </p>
               <p className="my-4 text-base font-medium">
                 I am currently <b>available</b> and <b>ready</b> to contribute{" "}
-                <b>full-time internship</b> , offering my dedicated commitment
-                to actively engage and play a part to the organization's goals.
+                <b>full-time working</b> , offering my dedicated commitment
+                to actively engage and play a part to the organization&apos;s goals.<br/>
+                
               </p>
               <p className="my-4 text-base font-medium">
-                Whenever you need, don't hesitate to{" "}
+                Whenever you need, don&apos;t hesitate to{" "}
                 {
                   <Link
                     href="mailto:baotran310702@gmail.com"
@@ -87,15 +89,15 @@ function About() {
             <div className="col-span-2 flex flex-col items-end justify-around">
               <div className="flex flex-col items-center justify-center">
                 <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={4} />
+                  <AnimatedNumbers value={20} />
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 ">
-                  Fourth year student
+                  Months of Experience
                 </h2>
               </div>
               <div className="flex flex-col items-center justify-center">
                 <span className="inline-block text-7xl font-bold">
-                  <AnimatedNumbers value={3} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 ">
                   Projects Completed

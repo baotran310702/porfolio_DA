@@ -21,39 +21,45 @@ function Skills() {
         TECHNICAL SKILLS
       </h2>
       <div className="w-full flex justify-center items-center">
-        <div className="w-4/5 grid grid-cols-2 items-center justify-items-center gap-4">
-          <div className="col-span-1">
-            <Skill
-              text="Figma - Github"
-              description="Tools"
-            />
-            <Skill text="HTML - CSS - JS" description="Web Knowledge" />
-          </div>
-          <div className="col-span-1">
-            <Skill text="ReactJS - NextJS - Flutter" description="Development Framework" />
-            <Skill
-              text="TailwindCSS - SCSS/SASS"
-              description="Utility CSS Framework"
-            />
-          </div>
-          <div className="col-span-1">
-            <Skill
-              text="Bloc, Redux, GetX, Provider"
-              description="State Management"
-            />
-          </div>
-          <div className="col-span-1">
-            <Skill
-              text="Dart, Java, C#, Python, Javascript."
-              description="Programming Language"
-            />
-          </div>
-          <div className="col-span-1">
-            <Skill
-              text="ASP.NET Web API - SQL Server"
-              description="Backend position"
-            />
-          </div>
+        <div className="w-4/5 grid grid-cols-3 items-center justify-items-center gap-4">
+          <Skill
+            text="Figma - Github"
+            description="Tools"
+          />
+          <Skill
+            text="Flutter - Dart"
+            description="Development Framework"
+          />
+          <Skill
+            text="Bloc, Redux, GetX, Provider"
+            description="State Management"
+          />
+         
+         <Skill
+            text="Java, Kotlin"
+            description="Programming Language"
+          />
+          <Skill
+            text="ReactJS - NextJS" 
+            description="Development Framework" 
+          />
+          <Skill
+            text="TailwindCSS - SCSS/SASS"
+            description="Utility CSS Framework"
+          />
+          
+          <Skill
+            text="Java, C#, Python, Javascript."
+            description="Programming Language"
+          />
+          <Skill
+            text="ASP.NET Web API - SQL Server"
+            description="Backend position"
+          />
+           <Skill 
+            text="HTML - CSS - JS" 
+            description="Web Knowledge" 
+          />
         </div>
       </div>
     </>
