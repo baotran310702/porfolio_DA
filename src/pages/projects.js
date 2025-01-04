@@ -2,16 +2,12 @@ import AnimatedText from "@/components/AnimatedText";
 import { GithubIcon } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import Head from "next/head";
-import Link from "next/link";
-import React from "react";
 import Image from "next/image";
-import ExcelPic from "../../public/images/profile/ExcelPJ.png";
-import DashboardPI from "../../public/images/profile/DashboardPI.png";
+import Link from "next/link";
+import Shoes_App from "../../public/images/profile/thumbnail-shoes.png";
 import NFT_Charity from "../../public/images/profile/thumbnail_greensavers.png";
 import Tiktok_App from "../../public/images/profile/thumbnail_tiktok.png";
-import Shoes_App from "../../public/images/profile/thumbnail-shoes.png";
 
-import { motion } from "framer-motion";
 
 const FeaturedProject = ({
   type,
@@ -126,12 +122,12 @@ function Projects() {
           <div className="grid grid-cols-12 gap-24 mt-14">
             <div className="col-span-12">
               <FeaturedProject
-                title="NFT Charity (Teamwork)"
+                title="Custom-State-Management"
                 img={NFT_Charity}
-                summary="I was joined in working at both frontend and backend position. At role frontend, i joined in user interface, login using metamask features, fetch nft from backend solidity and fetch api from backend. At backend, i joined in design models and used it to save transactions."
-                link="https://github.com/hadanhtuan/NFT_Charity"
-                github="https://github.com/hadanhtuan/NFT_Charity"
-                type="Frontend: ReactJS, Backend: ASP.NET Web API"
+                summary="This library is written to decrease the complexity of state management in Flutter Projects, suitable for small projects and projects with simple state management. This will simulate how Bloc working by using contain all state in Stream, it will similar to Cubit but no need to implement through BlocProvider."
+                link="https://pub.dev/packages/custom_state_management"
+                github="https://github.com/baotran310702/Custom-State-Management"
+                type="Flutter & Dart - Testing & Learning"
               />
             </div>
             <div className="col-span-6">
