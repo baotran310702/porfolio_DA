@@ -55,8 +55,9 @@ function About() {
                 I am come from <b>UIT-VNUHCM</b>.<br />
                 I will be graduated in <b>28/11/2024</b>.<br />
                 I am flutter developers with <b>over 20 months of experience</b> .<br />
-                I have an my own project. Pushed to production on Google Play.
+                I have an my own project.Reviewing to production on Google Play.
                 I will deploy it to App Store soon.<br />
+                You can review it on my DeployGate <Link href="https://deploygate.com/distributions/74e36f33869266142b82ef5e14dcf372d4aa36a4" target="_blank" className="text-cyan-600">here</Link>.
               </p>
               <p className="my-4 text-base font-medium">
                 I am currently <b>available</b> and <b>ready</b> to contribute{" "}
